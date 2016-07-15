@@ -7,3 +7,8 @@ $(".toggle_menu").click(function() {
 	}else {
 		$(".top_menu").fadeIn(600);
 	}
+при нажатие на ссылку в меню
+$(".top_menu li a").click(function(){
+	$(".top_menu").fadeOut(600);
+	$(".sandwich").toggleClass("active");
+});
