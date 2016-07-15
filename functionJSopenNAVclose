@@ -1,0 +1,9 @@
+$(".toggle_menu, .menu_item").click(function() {
+  $(".sandwich").toggleClass("active");
+});
+$(".toggle_menu").click(function() {
+	if($(".top_menu").is(":visible")) {
+		$(".top_menu").fadeOut(600);
+	}else {
+		$(".top_menu").fadeIn(600);
+	}
