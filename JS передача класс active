@@ -1,0 +1,26 @@
+
+	$(".s_proekt_ul li").click(function() {
+		$(".s_proekt_ul li").removeClass("active");
+		$(this).addClass("active");
+	});
+	
+	
+			<div class="container s_proekt_ul">
+			<div class="row">
+				<div class="col-md-12">
+					<ul>
+						<li class="active">Все работы</li>
+						<li>Сайт визитка</li>
+						<li>Лэйндинг пэдж</li>
+					</ul>
+				</div>
+				<div class="col-md-3">123</div>
+ 				<div class="col-md-3">123</div>
+  				<div class="col-md-3">123</div>
+  				<div class="col-md-3">123</div>
+  				<div class="col-md-3">123</div>
+ 				<div class="col-md-3">123</div>
+  				<div class="col-md-3">123</div>
+  				<div class="col-md-3">123</div>
+			</div>
+		</div>
